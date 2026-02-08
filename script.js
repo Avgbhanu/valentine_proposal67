@@ -50,7 +50,7 @@ function showMessage(response) {
     noButton.style.position = "absolute";
 
     // Change the image source to "gun.gif"
-    document.getElementsByClassName("image")[0].src = "catgun.jpg";
+    document.getElementsByClassName("image")[0].src = "catgun.jpeg";
 
     // Generate random coordinates within the visible container
     const randomX = Math.max(0, Math.floor(Math.random() * maxWidth));
@@ -66,7 +66,7 @@ function showMessage(response) {
     document.getElementById("name").style.display = "none";
 
     // Add a mouseover event listener to the "No" button
-    noButton.addEventListener("mouseover", () => {
+    noButton.addEventListener("mouseover", () => {https://github.com/Avgbhanu/valentine_proposal67/edit/main/script.js#L53C64
       if (!videoPlayed) {
         if (isYouTubeReady && player) {
           document.getElementById('youtube-player-container').style.display = 'block';
